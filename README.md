@@ -5,7 +5,8 @@
 
 - [Table of Contents](#table-of-contents)
 - [Requirements](#requirements)
-- [Installation](#plugins)
+- [Installation](#installation)
+- [Laravel simple note](#laravel-simple-note)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
