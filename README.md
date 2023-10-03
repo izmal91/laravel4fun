@@ -23,16 +23,21 @@ Just for fun to learn laravel.
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/izmal91/laravel4fun.git
    ```
-3. Install NPM packages
+2. Run composer
    ```sh
-   npm install
+   composer install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Create database
+4. Setup .env / put value in env
+5. Run migration and seed
+   ```sh
+   php artisan migrate:fresh --seed
+   ```
+6. Start Laravel app
+   ```sh
+   php artisan serve
    ```
