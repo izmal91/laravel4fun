@@ -73,6 +73,8 @@ Create view
 Clear env cache (if new value not relfected)
 - `php artisan cache:clear`
 
+If got error encryption key 'No application encryption key has been specified.'
+- `php artisan key:generate`
 * * *
 
 ### Basic file/path to know before run laravel.
