@@ -61,19 +61,16 @@ Start laravel app in local
 Migrate db and table with data
 - `php artisan migrate:fresh --seed`
 
-run this command in terminal to install
-- `composer create-project laravel/laravel testlaravel`
-
-create controller
+Create controller
 - `php artisan make:controller UserController`
 
-create model
+Create model
 - `php artisan make:model Staff`
 
-create view
+Create view
 - `php artisan make:view firstPage`
 
-clear env cache (if new value not relfected)
+Clear env cache (if new value not relfected)
 - `php artisan cache:clear`
 
 * * *
