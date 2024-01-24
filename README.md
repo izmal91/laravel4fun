@@ -34,11 +34,15 @@ _Below is an example of how you can instruct your audience on installing and set
    ```
 3. Create database
 4. Setup .env / put value in env
-5. Run migration and seed
+5. Generate key
+   ```sh
+   php artisan key:generate
+   ```
+6. Run migration and seed
    ```sh
    php artisan migrate:fresh --seed
    ```
-6. Start Laravel app
+7. Start Laravel app
    ```sh
    php artisan serve
    ```
