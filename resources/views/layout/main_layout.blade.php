@@ -8,10 +8,14 @@
 		<meta name="generator" content="">
 		<title>Belajor</title>
 
-		
-
 		<!-- Bootstrap core CSS -->
 		<link href="{{url('')}}/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- JQuery core JS -->
+		<script src="{{url('')}}/assets/dist/js/jquery-min.js"></script>
+
+		<!-- Bootstrap core JS -->
+		<script src="{{url('')}}/assets/dist/js/bootstrap.bundle.min.js"></script>
 
 		<style>
 			.bd-placeholder-img {
@@ -50,8 +54,5 @@
 				Created today {{date('d-m-Y')}}
 			</footer>
 		</div>
-
-
-		<script src="{{url('')}}/assets/dist/js/bootstrap.bundle.min.js"></script>
 	</body>
 </html>
