@@ -18,10 +18,6 @@ use App\Http\Controllers\PagePetameController;
 //first page
 Route::get('/', [StartController::class, 'index']);
 
-//test2
-Route::get('/page-pertama', [PagePetameController::class, 'page_submit']);
-
-
 //example
 Route::get('/start', [StartController::class, 'index']);
 Route::get('/create-new', [StartController::class, 'create_new']);
@@ -30,3 +26,6 @@ Route::get('/edit/{id}', [StartController::class, 'edit']);
 Route::post('/edit/submit', [StartController::class, 'save_submit']);
 Route::get('/remove/{id}', [StartController::class, 'remove']);
 
+
+//test2
+Route::get('/page-pertama', [PagePetameController::class, 'page_submit']);
